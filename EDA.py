@@ -97,8 +97,8 @@ else:
         if slt.button('Click Here to get Code',key = 'fhd'):
             if ty == 'Distribution':
                 slt.code(f"""fig,ax = plt.subplots()\nplt.title("The {ty} of {x_l}")\nsns.histplot(x = '{x_l}',data = data,kde = True,ax=ax)\nplt.xticks(rotation = 'vertical')\nslt.pyplot(fig)""")
-        else:
-             slt.code(f"""fig,ax = plt.subplots()\nplt.title("The {ty} of {x_l} and {y_l}")\nsns.scatterplot(x = '{x_l}', y = '{y_l}',data = data,kde = True,ax=ax)\nplt.xticks(rotation = 'vertical')\nslt.pyplot(fig)""")
+            else:
+                slt.code(f"""fig,ax = plt.subplots()\nplt.title("The {ty} of {x_l} and {y_l}")\nsns.scatterplot(x = '{x_l}', y = '{y_l}',data = data,kde = True,ax=ax)\nplt.xticks(rotation = 'vertical')\nslt.pyplot(fig)""")
 
     
             
