@@ -9,7 +9,7 @@ slt.set_page_config(page_title = "EDA",page_icon = icon, layout = "wide")
 slt.caption("Praneethvasa")
 slt.title("Exploratory Data Analysis -- On any DataSet")
 m = True
-#m = False
+m = False
 if m:
     imag = Image.open("mn.png")
     slt.image(imag,use_column_width = True)
