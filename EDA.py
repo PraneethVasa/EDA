@@ -83,7 +83,7 @@ else:
         if ty == 'Correlation':
             y_l = slt.selectbox("On Y - AXIS ",list(data.columns))
         if slt.button("Plot Graph",key='fd'):
-            fig,ax = plt.subplots(1,figsize = (22,10))
+            fig,ax = plt.subplots(1,figsize = (220,10))
             if ty == 'Distribution':
                 plt.title(f"The {ty} of {x_l}")
                 sns.histplot(x = x_l,data = data,kde = True,ax=ax)
