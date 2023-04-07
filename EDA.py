@@ -13,7 +13,7 @@ m = False
 if m:
     imag = Image.open("mn.png")
     slt.image(imag,use_column_width = True)
-    slt.title(""Sorry, the web app is currently under maintenance. Please try again Later😶‍🌫️")
+    slt.title("Sorry, the web app is currently under maintenance. Please try again Later😶‍🌫️")
 else:
     file1 = slt.file_uploader("Upload a DataSet in (.csv Form)")
     if file1 is not None:
