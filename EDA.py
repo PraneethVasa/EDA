@@ -8,7 +8,7 @@ icon = Image.open("icon2.png")
 slt.set_page_config(page_title = "EDA",page_icon = icon, layout = "wide")
 slt.caption("Praneethvasa")
 slt.title("Exploratory Data Analysis -- On any DataSet")
-#m = True
+m = True
 m = False
 if m:
     imag = Image.open("mn.png")
